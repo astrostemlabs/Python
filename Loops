@@ -1,4 +1,3 @@
-```python
 # Name:        Looping Structures - For (loopingFor.py)
 # Purpose:     To provide information about how for loops work as a looping
 #			   structure in Python
@@ -41,4 +40,3 @@ for count in range(0, 5, 1):
 	elif count == 3:	# Plan something else for when count is 3
 		pass
 	print(str(count))
-```
