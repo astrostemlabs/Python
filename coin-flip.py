@@ -30,7 +30,7 @@ print("There were",change,"changes that occured.")
  
 print(seq)
 l=len(seq)
-#----------------- Find sequence of 'H------------------------------------
+#----------------- Find sequence of 'H'------------------------------------
 for i in range(0,l-1):
     if seq[i] =='H' :
         if sequenceof_H == 0:
@@ -50,7 +50,7 @@ if seq[l-1] =='H' :
 if sequenceof_H> max_sequenceof_H:
    max_sequenceof_H = sequenceof_H
    
-#----------------- Find sequence of 'H------------------------------------
+#----------------- Find sequence of 'T'------------------------------------
 for i in range(0,l-1):
     if seq[i] =='T' :
         if sequenceof_T == 0:
